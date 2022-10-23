@@ -1,0 +1,220 @@
+body,
+.nav-bar ul li a {
+  background-attachment: fixed;
+  background-image: url(./imgas/1.jpg);
+  padding: 0px;
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.head-1 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+.logo {
+  font-size: 2.4em;
+  color: aliceblue;
+  font-weight: 900;
+  display: flex;
+  text-transform: capitalize;
+  margin-top: 6px;
+}
+.logo p {
+  color: rgb(241, 145, 19);
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+.logo p:hover {
+  transform: scale(1.3);
+}
+.nav-bar ul li a {
+  text-decoration: none;
+  color: rgb(250, 255, 240);
+  padding: 10px;
+  transition: 0.5s ease-in-out;
+  font-weight: 600;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  list-style: none;
+  display: flex;
+}
+ul {
+  list-style: none;
+  display: flex;
+  height: 60px;
+  float: left;
+}
+.nav-bar a:hover {
+  color: rgb(235, 171, 8);
+  transform: scale(1.1);
+}
+.search-bar {
+  border: 1px solid rgb(250, 173, 6);
+  border-radius: 6px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  height: 30px;
+  width: 200px;
+  color: rgb(240, 150, 15);
+  border-right: none;
+  font-size: 18px;
+  padding-left: 8px;
+}
+.btn {
+  width: 100px;
+  height: 30px;
+  background: rgb(240, 150, 15);
+  color: rgb(241, 239, 236);
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  border: 1px solid rgb(250, 173, 6);
+  border-radius: 6px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.btn :focus {
+  outline: none;
+}
+.search-bar:focus {
+  outline: none;
+}
+.main h1 {
+  color: rgb(231, 229, 229);
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 10%;
+  padding-top: 12%;
+  letter-spacing: 1px;
+  font-size: 40px;
+}
+.main span {
+  color: rgb(241, 145, 19);
+  display: inline;
+}
+.main span :hover {
+  transform: scale(1.2);
+}
+.main p {
+  color: aliceblue;
+  font-size: 20px;
+  line-height: 26px;
+  margin-left: 11%;
+  display: flex;
+  margin-top: 50px;
+  width: 600px;
+  font-weight: 800;
+}
+.info-btn {
+  width: 140px;
+  height: 40px;
+  background: rgb(240, 150, 15);
+  color: rgb(241, 239, 236);
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 20px;
+  display: block;
+  margin-left: 30%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 800;
+  padding: 5px;
+  transition: 0.6s;
+}
+.info-btn:hover {
+  transform: scale(1.07);
+  color: rgb(0, 0, 0);
+  background: white;
+}
+.form {
+  width: 250px;
+  height: 400px;
+  background: linear-gradient(
+    to top,
+    rgba (0, 0, 0, 8) 50%,
+    rgba(0, 0, 0, 8) 50%
+  );
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  border-radius: 15px;
+  padding: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: block;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+.form h3 {
+  color: rgb(236, 103, 9);
+  font-weight: 900;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.form input {
+  width: 80%;
+  height: 22px;
+  margin: 8px;
+  border-radius: 8px;
+  color: chocolate;
+  font-size: 15px;
+  padding: 5px;
+  font-weight: 500;
+  transition: 0.6s;
+}
+.form .btn {
+  width: 80px;
+  height: 25px;
+  background: rgb(236, 103, 9);
+  color: rgb(241, 239, 236);
+  font-size: 19px;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 20px;
+  display: block;
+  margin-left: 30%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 400;
+  padding: 5px;
+  transition: 0.6s;
+}
+.form p {
+  color: aliceblue;
+  font-weight: 600;
+  margin: 5px;
+}
+.account {
+  color: chocolate;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 600;
+  transition: 0.4s;
+}
+.account:hover {
+  color: rgb(245, 177, 153);
+}
+.social-icons {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+  font-size: 30px;
+  padding: 5px;
+}
+.social-icons:hover {
+  color: rgb(187, 54, 6);
+}
+.foot {
+  margin-top: 120px;
+  background-color: rgba(0, 0, 0, 0.555);
+  color: azure;
+  padding-top: 80px;
+  padding-left: 50px;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 900;
+}
